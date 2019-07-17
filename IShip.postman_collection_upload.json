@@ -79,9 +79,8 @@
 					},
 					{
 						"key": "X-File-Name",
-						"value": "1.txt",
-						"type": "text",
-						"src": "game.html"
+						"value": "game.html",
+						"type": "text"
 						
 					},
 					{
