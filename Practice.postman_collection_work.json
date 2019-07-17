@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "1ecdaebd-46e4-4e05-98fa-3dd22eef812b",
+		"name": "Practice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://epruryaw0341:8085/api/user",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e20ccba3-0f24-4f84-ab2c-e5a29543cd96",
+						"exec": [
+							"pm.test(\"Status code is 500\", function () {",
+							"    pm.response.to.have.status(500);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"Login\": \"testUser\",\n  \"NativeName\": \"UserModel\",\n  \"Password\": \"Password\",\n  \"ConfirmPassword\": \"Password\"\n}"
+				},
+				"url": {
+					"raw": "http://epruryaw0341:8085/api/user",
+					"protocol": "http",
+					"host": [
+						"epruryaw0341"
+					],
+					"port": "8085",
+					"path": [
+						"api",
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://epruryaw0341:8085/api/game",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e20ccba3-0f24-4f84-ab2c-e5a29543cd96",
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Name\": \"Game1\",\r\n  \"SwitchTimeout\": 10,\r\n  \"StartupTeamLives\": 3,\r\n  \"PoliceSpeed\": 1,\r\n  \"ThiefSpeed\": 1\r\n}"
+				},
+				"url": {
+					"raw": "http://epruryaw0341:8085/api/game",
+					"protocol": "http",
+					"host": [
+						"epruryaw0341"
+					],
+					"port": "8085",
+					"path": [
+						"api",
+						"game"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
