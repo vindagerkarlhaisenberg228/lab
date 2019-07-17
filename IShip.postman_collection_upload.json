@@ -82,11 +82,6 @@
 						"value": "game.html",
 						"type": "text"
 						
-					},
-					{
-						"key": "X-File-Type",
-						"value": " text/css",
-						"type": "text"
 					}
 				],
 				"body": {
