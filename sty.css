@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #DC143C
+}
+button {
+    color: white;
+    border: 0;
+    margin: 0;
+    height: 30px;
+    
+}  
+.block3 {
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+
+}    
+.button1 {
+    background-color: green; 
+}
+.button2, .button3, .button4 {
+    background-color: blue;
+}
+.button5, .button6, .button7 {
+    background-color: red;
+}
+.progressbar {
+    text-align: center;
+    color: white; 
+}
+hr {
+    color: white;
+}
+.pole {
+    color: rgb(219, 20, 13);
+    height: 60%;
+    width: 100%;
+} 
+
+.block12 {
+    display: flex;
+    height: 100%;
+}
+
+.sidebar, .centre, .right-sidebar {
+    flex: 1
+}
+#blockCenter {
+  height: 100%;
+}
+.textBox {
+    background: gray;
+    height: 60%;
+    width: 50%;
+}
+.block2, .block1, .block3{
+    flex:1;
+}
+.sto {
+    height: 100%;
+}
+.centre {
+    
+    flex: 1
+
+}
+
+progress::-moz-progress-bar {
+    height: 18px;
+    border-radius: 9px;
+    width: 60%;
+}
+.progress {
+  font: 12px Arial, Tahoma, sans-serif;
+  overflow: hidden;
+}
