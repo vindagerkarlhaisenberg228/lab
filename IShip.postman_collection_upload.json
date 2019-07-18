@@ -89,7 +89,7 @@
 						{
 							"key": "",
 							"type": "file",
-							"src": "/var/lib/jenkins/workspace/konev_i_pipe/game.html"
+							"src": "/var/lib/jenkins/workspace/konev_i/game.html"
 						}
 					]
 				},
@@ -136,7 +136,7 @@
 						{
 							"key": "",
 							"type": "file",
-							"src": "/var/lib/jenkins/workspace/konev_i_pipe/game.js"
+							"src": "/var/lib/jenkins/workspace/konev_i/game.js"
 						}
 					]
 				},
@@ -183,7 +183,7 @@
 						{
 							"key": "",
 							"type": "file",
-							"src": "/var/lib/jenkins/workspace/konev_i_pipe/style.css"
+							"src": "/var/lib/jenkins/workspace/konev_i/style.css"
 						}
 					]
 				},
